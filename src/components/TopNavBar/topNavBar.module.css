@@ -1,0 +1,17 @@
+.header {
+  width: 100vw;
+  padding: var(--container-padding);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header_nav {
+  display: flex;
+  gap: 20px;
+  color: var(--base-color);
+  align-items: center;
+}
+
+.header_nav a {
+  color: var(--base-color);
+}
